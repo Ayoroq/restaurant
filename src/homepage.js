@@ -1,44 +1,45 @@
 // function to add contents to the html page upon load
 function addContents() {
-    //first create a div element
-    const div = document.createElement('div');
-    div.classList.add('description');
-    div.innerHTML = `
+  const content = document.querySelector(".content");
+  //first create a div element
+  const div = document.createElement("div");
+  div.classList.add("description");
+  div.innerHTML = `
     <h1>As É Dey Hot!</h1>
     <p>
-      Step into a world of rich spices, bold flavors, and the heart of
-      Nigerian cooking. From sizzling suya to velvety egusi, every dish is
-      made fresh and served with heat. No shortcuts. No apologies. Just the
-      real taste of Naija.
+      Step into a world of rich spices, bold flavors, and the heart of Nigerian cooking.
+      From sizzling suya to velvety egusi, every dish is made fresh and served with heat the kind that hugs your chest and wakes your soul.
+      No shortcuts. No apologies. Just the real taste of Naija. Smoky, spicy, and deeply satisfying.
     </p>
     `;
-    document.querySelector('.content').appendChild(div)
-    
-    // create the images div
-    const imagesDiv = document.createElement('div');
-    imagesDiv.classList.add('images');
-    imagesDiv.innerHTML = `
+  content.appendChild(div);
+
+  // create the images div
+  const imagesDiv = document.createElement("div");
+  imagesDiv.classList.add("images");
+  imagesDiv.innerHTML = `
     <img src="/src/assets/food.jpg" width="600px" alt="">
     `;
-    document.querySelector('.content').appendChild(imagesDiv);
+  content.appendChild(imagesDiv);
 
-    //create a div for the favourites words and line
-    const favouritesTitle = document.createElement(div);
-    favouritesTitle.classList.add('favourites-title');
-    favouritesTitle.innerHTML = `
+  //create a div for the favourites words and line
+  const favourites = document.createElement("div");
+  favourites.classList.add("favourites");
+  favourites.innerHTML = `
     <p>Favourite Picks</p>
     <hr>
     `;
-    document.querySelector('.content').appendChild(favouritesTitle);
+  content.appendChild(favourites);
 
-    // create the favourites div
-    const favouritesDiv = document.createElement('div');
-    favouritesDiv.classList.add('favourites');
-    favouritesDiv.innerHTML = `
+  // create the favourites div
+  const gallery = document.createElement("div");
+  gallery.classList.add("gallery");
+  gallery.innerHTML = `
     <img src="/src/assets/puff_puff.jpg" alt="">
     <img src="/src/assets/efo.jpg" alt="">
     <img src="/src/assets/soup.jpg" alt="">
     `;
-    document.querySelector('.content').appendChild(favouritesDiv)
-
+  content.appendChild(gallery);
 }
+
+export default addContents;
