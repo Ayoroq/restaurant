@@ -38,8 +38,9 @@ function addContents() {
   gallery.classList.add("gallery");
   gallery.innerHTML = `
     <img src="/src/assets/hero-jollof.jpeg" alt="">
-    <img src="/src/assets/greens.jpg" alt="">
-    <img src="/src/assets/bowl.jpg" alt="">
+    <img src="/src/assets/hero-fajita.png" alt="">
+    <img src="/src/assets/hero-steak.png" alt="">
+    <img src="/src/assets/hero-burger.png" alt="">
     `;
   content.appendChild(gallery);
 }
