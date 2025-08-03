@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -10,16 +14,17 @@
   align-items: center;
 }
 
-button{
-    padding: 0.5rem 1.5rem;
-    border: none;
-    font-size: 1rem;
-    background: transparent;
-    cursor: pointer;
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
 }
-ul{
-    display: flex;
-    gap: 1rem;
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
 
 .description {
@@ -34,10 +39,9 @@ ul{
   margin: 1rem 0;
 }
 
-.description p{
-    margin-bottom: 2rem;
+.description p {
+  margin-bottom: 2rem;
 }
-
 
 .images img {
   width: 100%;
@@ -57,8 +61,51 @@ ul{
   object-fit: cover;
 }
 
-.favourites p{
-    font-size: 2rem;
-    font-weight: 600;;
-    margin-bottom: 0;
+.favourites p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.menu-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;;
+}
+
+.menu-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.menu-item-container p {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  margin: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  padding-left: 2rem;
+}
+
+.price {
+  color: green;
 }

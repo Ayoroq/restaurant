@@ -1,6 +1,8 @@
 // function to add contents to the html page upon load
 function addContents() {
   const content = document.querySelector(".content");
+  content.innerHTML = "";
+
   //first create a div element
   const div = document.createElement("div");
   div.classList.add("description");
@@ -35,9 +37,9 @@ function addContents() {
   const gallery = document.createElement("div");
   gallery.classList.add("gallery");
   gallery.innerHTML = `
-    <img src="/src/assets/puff_puff.jpg" alt="">
-    <img src="/src/assets/efo.jpg" alt="">
-    <img src="/src/assets/soup.jpg" alt="">
+    <img src="/src/assets/hero-jollof.jpeg" alt="">
+    <img src="/src/assets/greens.jpg" alt="">
+    <img src="/src/assets/bowl.jpg" alt="">
     `;
   content.appendChild(gallery);
 }
