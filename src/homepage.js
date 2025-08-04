@@ -1,3 +1,8 @@
+import mainImage from '/src/assets/food.jpg';
+import jollofImage from '/src/assets/hero-jollof.jpeg';
+import fajitaImage from '/src/assets/hero-fajita.png';
+import steakImage from '/src/assets/hero-steak.png';
+import burgerImage from '/src/assets/hero-burger.png';
 // function to add contents to the html page upon load
 function addContents() {
   const content = document.querySelector(".content");
@@ -20,7 +25,7 @@ function addContents() {
   const imagesDiv = document.createElement("div");
   imagesDiv.classList.add("images");
   imagesDiv.innerHTML = `
-    <img src="/src/assets/food.jpg" width="600px" alt="">
+    <img width="600px" alt="" class="main-image" src="${mainImage}">
     `;
   content.appendChild(imagesDiv);
 
@@ -37,10 +42,10 @@ function addContents() {
   const gallery = document.createElement("div");
   gallery.classList.add("gallery");
   gallery.innerHTML = `
-    <img src="/src/assets/hero-jollof.jpeg" alt="">
-    <img src="/src/assets/hero-fajita.png" alt="">
-    <img src="/src/assets/hero-steak.png" alt="">
-    <img src="/src/assets/hero-burger.png" alt="">
+    <img src="${jollofImage}" alt="">
+    <img src="${fajitaImage}" alt="">
+    <img src="${steakImage}" alt="">
+    <img src="${burgerImage}" alt="">
     `;
   content.appendChild(gallery);
 }

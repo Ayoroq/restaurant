@@ -1,3 +1,36 @@
+// Import all menu images
+import burgerImg from '/src/assets/burger.jpg';
+import carrotSoupImg from '/src/assets/carrot_soup.jpg';
+import sushiImg from '/src/assets/sushi.jpg';
+import bibimbapImg from '/src/assets/bibimbap.jpg';
+import empanadasImg from '/src/assets/empanadas.jpg';
+import efoRiroImg from '/src/assets/efo-riro.jpg';
+import pieImg from '/src/assets/pie.jpg';
+import grilledChickenImg from '/src/assets/grilled-chicken.jpg';
+import jerkImg from '/src/assets/jerk.jpg';
+import bulgogiImg from '/src/assets/bulgogi.jpg';
+import salmonImg from '/src/assets/salmon.jpg';
+import tacosImg from '/src/assets/tacos.jpg';
+import steakImg from '/src/assets/steak.jpg';
+import jollofImg from '/src/assets/jollof.png';
+import friedRiceImg from '/src/assets/fried-rice.png';
+import oatmealImg from '/src/assets/oatmeal.jpg';
+import bulgurImg from '/src/assets/bulgur.jpg';
+import quinoaImg from '/src/assets/quinoa.jpg';
+import couscousImg from '/src/assets/couscous.jpg';
+import puffPuffImg from '/src/assets/puff-puff.jpg';
+import meatPieImg from '/src/assets/meat-pie.jpg';
+import sausageImg from '/src/assets/sausage.jpg';
+import chinChinImg from '/src/assets/chin-chin.jpeg';
+import tostonesImg from '/src/assets/tostones.png';
+import moiMoiImg from '/src/assets/moi-moi.jpg';
+import akaraImg from '/src/assets/akara.jpeg';
+import zoboImg from '/src/assets/zobo.png';
+import beerImg from '/src/assets/beer.jpg';
+import juiceImg from '/src/assets/juice.jpg';
+import cokeImg from '/src/assets/coke.jpg';
+import waterImg from '/src/assets/water.jpg';
+
 // this is the function to show the menu when the user clicks on the menu button
 function changeToMenu() {
   const content = document.querySelector(".content");
@@ -14,43 +47,43 @@ function changeToMenu() {
     <ul>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/burger.jpg" alt="Smash burger" />
+            <img src="${burgerImg}" alt="Smash burger" />
             <p>Smash Burger<span class="price">$9</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/carrot_soup.jpg" alt="Carrot Soup" />
+            <img src="${carrotSoupImg}" alt="Carrot Soup" />
             <p>Carrot Soup<span class="price">$12</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/sushi.jpg" alt="Sushi Rolls" />
+            <img src="${sushiImg}" alt="Sushi Rolls" />
             <p>Sushi Rolls<span class="price">$12</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/bibimbap.jpg" alt="Bibimbap" />
+            <img src="${bibimbapImg}" alt="Bibimbap" />
             <p>Bibimbap<span class="price">$11</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/empanadas.jpg" alt="Empanadas" />
+            <img src="${empanadasImg}" alt="Empanadas" />
             <p>Empanadas<span class="price">$10</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/efo-riro.jpg" alt="Efo Riro" />
+            <img src="${efoRiroImg}" alt="Efo Riro" />
             <p>Efo Riro<span class="price">$11</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/pie.jpg" alt="pie" />
+            <img src="${pieImg}" alt="pie" />
             <p>Pie<span class="price">$12</span></p>
         </div>
         </li>
@@ -65,7 +98,7 @@ function changeToMenu() {
         <li class="menu-item">
         <div class="menu-item-container">
             <img
-            src="/src/assets/grilled-chicken.jpg"
+            src="${grilledChickenImg}"
             alt="Grilled Chicken"
             />
             <p>Grilled Chicken<span class="price">$6</span></p>
@@ -73,31 +106,31 @@ function changeToMenu() {
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/jerk.jpg" alt="Jamaican Jerk Chicken" />
+            <img src="${jerkImg}" alt="Jamaican Jerk Chicken" />
             <p>Jamaican Jerk Chicken <span class="price">$7</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/bulgogi.jpg" alt="Beef Bulgogi" />
+            <img src="${bulgogiImg}" alt="Beef Bulgogi" />
             <p>Beef Bulgogi<span class="price">$8</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/salmon.jpg" alt="Grilled Salmon" />
+            <img src="${salmonImg}" alt="Grilled Salmon" />
             <p>Grilled Salmon<span class="price">$9</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/tacos.jpg" alt="Fish Tacos" />
+            <img src="${tacosImg}" alt="Fish Tacos" />
             <p>Fish Tacos<span class="price">$6</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/steak.jpg" alt="Grilled Steak" />
+            <img src="${steakImg}" alt="Grilled Steak" />
             <p>Grilled Steak<span class="price">$10</span></p>
         </div>
         </li>
@@ -111,37 +144,37 @@ function changeToMenu() {
     <ul>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/jollof.png" alt="Jollof Rice" />
+            <img src="${jollofImg}" alt="Jollof Rice" />
             <p>Jollof Rice<span class="price">$10</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/fried-rice.png" alt="Fried Rice" />
+            <img src="${friedRiceImg}" alt="Fried Rice" />
             <p>Fried Rice<span class="price">$10</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/oatmeal.jpg" alt="Oatmeal" />
+            <img src="${oatmealImg}" alt="Oatmeal" />
             <p>Oatmeal<span class="price">$3</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/bulgur.jpg" alt="Bulgur" />
+            <img src="${bulgurImg}" alt="Bulgur" />
             <p>Bulgur<span class="price">$3</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/quinoa.jpg" alt="Quinoa" />
+            <img src="${quinoaImg}" alt="Quinoa" />
             <p>Quinoa<span class="price">$3.50</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/couscous.jpg" alt="Couscous" />
+            <img src="${couscousImg}" alt="Couscous" />
             <p>Couscous<span class="price">$3.50</span></p>
         </div>
         </li>
@@ -155,43 +188,43 @@ function changeToMenu() {
     <ul>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/puff-puff.jpg" alt="Puff-Puff" />
+            <img src="${puffPuffImg}" alt="Puff-Puff" />
             <p>Puff-Puff<span class="price">$4</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/meat-pie.jpg" alt="Meat Pie" />
+            <img src="${meatPieImg}" alt="Meat Pie" />
             <p>Meat Pie<span class="price">$3</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/sausage.jpg" alt="Sausage Roll" />
+            <img src="${sausageImg}" alt="Sausage Roll" />
             <p>Sausage Roll<span class="price">$2.50</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/chin-chin.jpeg" alt="Chin Chin" />
+            <img src="${chinChinImg}" alt="Chin Chin" />
             <p>Chin Chin<span class="price">$3</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/tostones.png" alt="Tostones" />
+            <img src="${tostonesImg}" alt="Tostones" />
             <p>Tostones<span class="price">$6</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/moi-moi.jpg" alt="Moi Moi" />
+            <img src="${moiMoiImg}" alt="Moi Moi" />
             <p>Moi Moi<span class="price">$4</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/akara.jpeg" alt="Akara" />
+            <img src="${akaraImg}" alt="Akara" />
             <p>Akara<span class="price">$3</span></p>
         </div>
         </li>
@@ -205,20 +238,20 @@ function changeToMenu() {
     <ul>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/zobo.png" alt="Zobo" />
+            <img src="${zoboImg}" alt="Zobo" />
             <p>Zobo<span class="price">$2.50</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/beer.jpg" alt="Beer" />
+            <img src="${beerImg}" alt="Beer" />
             <p>Beer<span class="price">$5</span></p>
         </div>
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
             <img
-            src="/src/assets/juice.jpg"
+            src="${juiceImg}"
             alt="Juice"/>
             <p>Juice<span class="price">$1.50</span></p>
         </div>
@@ -226,7 +259,7 @@ function changeToMenu() {
         <li class="menu-item">
         <div class="menu-item-container">
             <img
-            src="/src/assets/coke.jpg"
+            src="${cokeImg}"
             alt="Fanta / Coke / Sprite"
             />
             <p>Fanta / Coke / Sprite<span class="price">$2</span></p>
@@ -234,7 +267,7 @@ function changeToMenu() {
         </li>
         <li class="menu-item">
         <div class="menu-item-container">
-            <img src="/src/assets/water.jpg" alt="Bottled Water" />
+            <img src="${waterImg}" alt="Bottled Water" />
             <p>Bottled Water<span class="price">$1.50</span></p>
         </div>
         </li>
